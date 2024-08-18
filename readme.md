@@ -5,12 +5,12 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 1
 
-    - Notes: 
-    - Topic I learned about: 
-    - Date: expected to start on 8/19/2024
+- Notes: 
+- Topic I learned about: 
+- Date: expected to start on 8/19/2024
 
 ## Day 2
 
-    - Notes:
-    - Topic I learned about:
-    - Date: 
+- Notes:
+- Topic I learned about:
+- Date: 
