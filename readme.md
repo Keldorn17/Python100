@@ -15,5 +15,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 3
 
+- Topic I learned about: Logical Operators
+- Date: 8/21/2024
+
+## Day 4
+
 - Topic I learned about:
 - Date: 
