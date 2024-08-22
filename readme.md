@@ -20,5 +20,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 4
 
+- Topic I learned about: Random
+- Date: 8/22/2024
+
+## Day 5
+
 - Topic I learned about:
 - Date: 
