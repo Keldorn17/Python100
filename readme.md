@@ -30,5 +30,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 6
 
+- Topic I learned about: Functions
+- Date: 8/24/2024
+
+## Day 7
+
 - Topic I learned about:
 - Date: 
