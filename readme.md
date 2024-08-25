@@ -35,5 +35,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 7
 
+- Topic I learned about: Hangman game
+- Date: 8/25/2024
+
+## Day 8
+
 - Topic I learned about:
 - Date: 
