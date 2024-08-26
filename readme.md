@@ -40,5 +40,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 8
 
+- Topic I learned about: Function Parameters, Ceaser Cipher
+- Date: 8/26/2024
+
+## Day 9
+
 - Topic I learned about:
 - Date: 
