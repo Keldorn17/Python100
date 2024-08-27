@@ -45,5 +45,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 9
 
+- Topic I learned about:Dictionaries
+- Date: 8/27/2024
+
+## Day 10
+
 - Topic I learned about:
 - Date: 
