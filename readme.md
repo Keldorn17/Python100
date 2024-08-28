@@ -50,5 +50,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 10
 
+- Topic I learned about: Functions with Outputs
+- Date: 8/28/2024
+
+## Day 11
+
 - Topic I learned about:
 - Date: 
