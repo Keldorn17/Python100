@@ -55,5 +55,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 11
 
+- Topic I learned about: Blackjack
+- Date: 8/29/2024
+
+## Day 12
+
 - Topic I learned about:
 - Date: 
