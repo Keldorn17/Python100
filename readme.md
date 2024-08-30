@@ -60,5 +60,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 12
 
+- Topic I learned about: Scopes
+- Date: 8/30/2024
+
+## Day 13
+
 - Topic I learned about:
 - Date: 
