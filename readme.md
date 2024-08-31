@@ -65,5 +65,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 13
 
+- Topic I learned about: Debugging
+- Date: 8/31/2024
+
+## Day 14
+
 - Topic I learned about:
 - Date: 
