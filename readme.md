@@ -75,5 +75,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 15
 
+- Topic I learned about: Coffee Machine
+- Date: 9/2/2024
+
+## Day 16
+
 - Topic I learned about:
 - Date: 
