@@ -95,5 +95,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 19
 
+- Topic I learned about: Turtle
+- Date: 9/7/2024
+
+## Day 20
+
 - Topic I learned about:
 - Date: 
