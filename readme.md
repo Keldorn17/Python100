@@ -105,5 +105,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 21
 
+- Topic I learned about: Snake Game
+- Date: 9/9/2024
+
+## Day 22
+
 - Topic I learned about:
 - Date: 
