@@ -110,5 +110,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 22
 
+- Topic I learned about: Pong
+- Date: 9/11/2024
+
+## Day 23
+
 - Topic I learned about:
 - Date: 
