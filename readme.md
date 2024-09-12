@@ -115,5 +115,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 23
 
+- Topic I learned about: Turtle Crossing Game
+- Date: 9/12/2024
+
+## Day 24
+
 - Topic I learned about:
 - Date: 
