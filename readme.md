@@ -120,5 +120,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 24
 
+- Topic I learned about: Files, Directories and Paths
+- Date: 9/13/2024
+
+## Day 25
+
 - Topic I learned about:
 - Date: 

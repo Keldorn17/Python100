@@ -61,3 +61,10 @@ class Snake:
 
     def get_segments(self) -> list[turtle.Turtle]:
         return self.__segments[1:]
+
+    def reset(self) -> None:
+        for seg in self.__segments:
+            seg.goto(1000, 1000)
+        self.__segments.clear()
+        self.__initialize_snake()
+        self.__head = self.__segments[0]
