@@ -130,5 +130,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 26
 
+- Topic I learned about: List Comprehension
+- Date: 9/15/2024
+
+## Day 27
+
 - Topic I learned about:
 - Date: 
