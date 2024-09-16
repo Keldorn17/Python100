@@ -135,5 +135,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 27
 
+- Topic I learned about: Tkinter
+- Date: 9/16/2024
+
+## Day 28
+
 - Topic I learned about:
 - Date: 
