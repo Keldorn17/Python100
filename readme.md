@@ -145,5 +145,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 29
 
+- Topic I learned about: Password Manager
+- Date: 9/18/2024
+
+## Day 30
+
 - Topic I learned about:
 - Date: 
