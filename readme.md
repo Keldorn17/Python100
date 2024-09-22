@@ -150,5 +150,5 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 30
 
-- Topic I learned about:
-- Date: 
+- Topic I learned about: Error Handling, JSON Data
+- Date: 9/22/2024
