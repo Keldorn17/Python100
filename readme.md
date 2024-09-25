@@ -158,7 +158,12 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 - Topic I learned about: Flash Card
 - Date: 9/23/2024
 
-## Day 31
+## Day 32
+
+- Topic I learned about: Smtplib
+- Date: 9/25/2025
+
+## Day 33
 
 - Topic I learned about:
 - Date:
