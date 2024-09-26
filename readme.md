@@ -161,9 +161,14 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 ## Day 32
 
 - Topic I learned about: Smtplib
-- Date: 9/25/2025
+- Date: 9/25/2024
 
 ## Day 33
+
+- Topic I learned about: Requests
+- Date: 9/26/2024
+
+## Day 34
 
 - Topic I learned about:
 - Date:
