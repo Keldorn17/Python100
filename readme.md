@@ -170,5 +170,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 34
 
+- Topic I learned about: Quiz App
+- Date: 9/27/2024
+
+## Day 35
+
 - Topic I learned about:
 - Date:
