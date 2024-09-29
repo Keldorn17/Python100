@@ -175,5 +175,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 35
 
+- Topic I learned about: SMS
+- Date: 9/29/2024
+
+## Day 36
+
 - Topic I learned about:
 - Date:
