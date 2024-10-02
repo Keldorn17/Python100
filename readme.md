@@ -180,5 +180,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 36
 
+- Topic I learned about: Stocks
+- Date: 10/2/2024
+
+## Day 37
+
 - Topic I learned about:
 - Date:
