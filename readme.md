@@ -185,5 +185,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 37
 
+- Topic I learned about: Habit Tracking
+- Date: 10/4/2024
+
+## Day 38
+
 - Topic I learned about:
 - Date:
