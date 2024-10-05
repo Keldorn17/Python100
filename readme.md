@@ -190,5 +190,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 38
 
+- Topic I learned about: Google Sheets
+- Date: 10/5/2024
+
+## Day 39
+
 - Topic I learned about:
 - Date:
