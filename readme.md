@@ -195,5 +195,5 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 39
 
-- Topic I learned about:
-- Date:
+- Topic I learned about: Flight Deal Finder
+- Date: 10/7/2024 - ...
