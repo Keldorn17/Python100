@@ -1,45 +1,52 @@
 from flight_search import FlightSearch
-import requests
-from pprint import pprint
-import os
-from dotenv import load_dotenv
+from data_manager import DataManager
+from flight_data import find_cheapest_flight
+from notification_manager import NotificationManager
+import time
+from datetime import datetime, timedelta
 
-load_dotenv(".env")
-
-SHEETY_URL: str = os.getenv("SHEETY_URL")
-SHEETY_TOKEN: str = os.getenv("SHEETY_TOKEN")
-SHEETY_HEADER = {
-        "Authorization": f"Bearer {SHEETY_TOKEN}"
-    }
-
-
-def get_data(url: str, params: dict = None, header: dict = None) -> dict:
-    response: requests.Response = requests.get(url=url, params=params, headers=header)
-    response.raise_for_status()
-    return response.json()
-
-
-def put_data(url: str, json: dict = None, header: dict = None) -> None:
-    response: requests.Response = requests.put(url=url, json=json, headers=header)
-    response.raise_for_status()
+ORIGIN_CITY_IATA: str = "LON"
 
 
 def main() -> None:
-    search_engine: FlightSearch = FlightSearch()
-    sheety_data: dict = get_data(SHEETY_URL, header=SHEETY_HEADER)["prices"]
+    data_manager: DataManager = DataManager()
+    flight_search: FlightSearch = FlightSearch()
+    # notification_manager: NotificationManager = NotificationManager()
+    sheet_data: dict = data_manager.get_destination_data()
+    print(sheet_data)
 
-    sheety_body: dict = {
-        "price": {
-            "iataCode": ""
-        }
-    }
-    pprint(sheety_data)
-
-    for row in sheety_data:
+    for row in sheet_data:
         if row["iataCode"] == "":
-            sheety_body["price"]["iataCode"] = search_engine.get_iata_code(row["city"])
-            print(sheety_body)
-            put_data(SHEETY_URL + f"/{row["id"]}", sheety_body, SHEETY_HEADER)
+            row["iataCode"] = flight_search.get_destination_code(row["city"])
+            # slowing down requests to avoid rate limit
+            time.sleep(2)
+    # print(f"sheet_data:\n {sheet_data}")
+
+    data_manager.destination_data = sheet_data
+    data_manager.update_destination_codes()
+
+    tomorrow = datetime.now() + timedelta(days=1)
+    six_month_from_today = datetime.now() + timedelta(days=(6 * 30))
+
+    for destination in sheet_data:
+        print(f"Getting flights for {destination}")
+        flights: dict = flight_search.check_flights(
+            ORIGIN_CITY_IATA,
+            destination["iataCode"],
+            from_time=tomorrow,
+            to_time=six_month_from_today
+        )
+        cheapest_flight = find_cheapest_flight(flights)
+        if cheapest_flight.price != "N/A" and cheapest_flight.price < destination["lowestPrice"]:
+            print(f"Lower price flight found to {destination['city']}!")
+            print(f"Low price alert! Only £{cheapest_flight.price} to fly "
+                  f"from {cheapest_flight.origin_airport} to {cheapest_flight.destination_airport}, "
+                  f"on {cheapest_flight.out_date} until {cheapest_flight.return_date}.")
+            # notification_manager.send_whatsapp(
+            #     message_body=f"Low price alert! Only £{cheapest_flight.price} to fly "
+            #                  f"from {cheapest_flight.origin_airport} to {cheapest_flight.destination_airport}, "
+            #                  f"on {cheapest_flight.out_date} until {cheapest_flight.return_date}."
+            # )
 
 
 if __name__ == '__main__':
