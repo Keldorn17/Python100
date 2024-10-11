@@ -193,12 +193,17 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 - Topic I learned about: Google Sheets
 - Date: 10/5/2024
 
-## Day 39
+## Day 39 - 40
 
 - Topic I learned about: Flight Deal Finder
 - Date: 10/7/2024 - 10/8/2024
 
-## Day 40
+## Day 41
+
+- Topic I learned about: Web Foundation
+- Date: 10/11/2024
+
+## Day 42
 
 - Topic I learned about: 
 - Date: 
