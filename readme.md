@@ -205,5 +205,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 42
 
+- Topic I learned about: Web Foundation
+- Date: 10/12/2024
+
+## Day 43
+
 - Topic I learned about: 
 - Date: 
