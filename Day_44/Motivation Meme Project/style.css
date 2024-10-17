@@ -1,0 +1,15 @@
+h1 {
+    font-family: Regular Libre Baskerville;
+    text-transform: uppercase;
+}
+* {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+img {
+    border: 5px solid white;
+}
+div {
+    margin: auto;
+}

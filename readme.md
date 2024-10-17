@@ -215,5 +215,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 44
 
+- Topic I learned about: CSS
+- Date: 10/17/2024
+
+## Day 45
+
 - Topic I learned about: 
 - Date: 
