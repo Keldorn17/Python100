@@ -220,5 +220,5 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 45
 
-- Topic I learned about: 
-- Date: 
+- Topic I learned about: Web Scraping
+- Date: 10/20/2024
