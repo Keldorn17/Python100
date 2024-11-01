@@ -1,25 +1,14 @@
-from bs4 import BeautifulSoup
-import requests
-
-
-def fetch_website(url: str, header: dict = None) -> str:
-    response: requests.Response = requests.get(url=url, headers=header)
-    response.raise_for_status()
-    return response.text
+import DataManager
+import spotifyManager
 
 
 def main() -> None:
-    header = {
-        "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
-    }
-    date: str = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
-    soup = BeautifulSoup(fetch_website(f"https://www.billboard.com/charts/hot-100/{date}", header), "html.parser")
+    web_data: DataManager.DataManager = DataManager.DataManager()
+    song_data: list = web_data.get_song_names()
+    print(song_data)
 
-    song_names_spans = soup.select("li ul li h3")
-    song_names = [song.getText().strip() for song in song_names_spans]
-    print(song_names)
+    spotify: spotifyManager = spotifyManager.spotifyManager(web_data.date, song_data)
+    spotify.create_playlist(f"{web_data.date} Billboard Top 100")
 
 
 if __name__ == '__main__':

@@ -226,4 +226,4 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 ## Day 45
 
 - Topic I learned about: Spotify Playlist
-- Date: 10/21/2024 - 
+- Date: 10/21/2024 - 11/1/2024
