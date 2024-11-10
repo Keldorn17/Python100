@@ -223,7 +223,17 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 - Topic I learned about: Web Scraping
 - Date: 10/20/2024
 
-## Day 45
+## Day 46
 
 - Topic I learned about: Spotify Playlist
 - Date: 10/21/2024 - 11/1/2024
+
+## Day 47
+
+- Topic I learned about: Amazon Price Tracker
+- Date: 11/10/2024
+
+## Day 48
+
+- Topic I learned about: 
+- Date: 
