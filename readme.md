@@ -235,5 +235,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 48
 
+- Topic I learned about: Selenium
+- Date: 11/13/2024
+
+## Day 49
+
 - Topic I learned about: 
 - Date: 
