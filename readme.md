@@ -240,5 +240,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 49
 
+- Topic I learned about: LinkedIn Job Search (Selenium)
+- Date: 11/14/2024
+
+## Day 50
+
 - Topic I learned about: 
 - Date: 
