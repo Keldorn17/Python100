@@ -248,7 +248,17 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 - Topic I learned about: Internet Speed (Selenium)
 - Date: 1/15/2025
 
-## Day 52
+## Day 53
+
+- Topic I learned about: Data Entry Automation (Selenium)
+- Date: 1/16/2025
+
+## Day 54
+
+- Topic I learned about: 
+- Date: 
+
+## Day 55
 
 - Topic I learned about: 
 - Date: 
