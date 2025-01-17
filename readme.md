@@ -255,8 +255,8 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 54
 
-- Topic I learned about: 
-- Date: 
+- Topic I learned about: Flask, Decorators
+- Date: 1/17/2025
 
 ## Day 55
 
