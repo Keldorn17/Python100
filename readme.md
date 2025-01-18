@@ -260,5 +260,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 55
 
+- Topic I learned about: Flask
+- Date: 1/18/2025
+
+## Day 56
+
 - Topic I learned about: 
 - Date: 
