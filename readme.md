@@ -270,5 +270,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 57
 
+- Topic I learned about: Flask, Jinja
+- Date: 1/22/2025
+
+## Day 58
+
 - Topic I learned about:
 - Date:
