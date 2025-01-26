@@ -275,5 +275,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 58
 
+- Topic I learned about: Bootstrap
+- Date: 1/26/2025
+
+## Day 59
+
 - Topic I learned about:
 - Date:
