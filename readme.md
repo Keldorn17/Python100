@@ -285,5 +285,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 60
 
+- Topic I learned about: Contact Page
+- Date: 1/28/2025
+
+## Day 61
+
 - Topic I learned about:
 - Date:

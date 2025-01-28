@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from send_email import SendEmail
 import requests
 
 POST_API_ENDPOINT: str = "https://api.npoint.io/674f5423f73deab1e9a7"
@@ -24,9 +25,15 @@ def about_page():
     return render_template("about.html")
 
 
-@app.route('/contact')
+@app.route('/contact', methods=['GET', 'POST'])
 def contact_page():
-    return render_template("contact.html")
+    if request.method == 'GET':
+        return render_template("contact.html", title='Contact Me')
+    else:
+        # Sending email is disabled due to it's only a test project it's unnecessary to flood me with emails.
+        # send_email: SendEmail = SendEmail(request.form)
+        # send_email.send_email()
+        return render_template("contact.html", title='Successfully sent message')
 
 
 def fetch_data(url: str) -> list[dict]:
@@ -36,4 +43,4 @@ def fetch_data(url: str) -> list[dict]:
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True)  # flask --app app run --debug
