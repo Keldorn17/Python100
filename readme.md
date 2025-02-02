@@ -295,5 +295,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 62
 
-- Topic I learned about:
+- Topic I learned about: Flask-WTForms
+- Date: 2/2/2025
+
+## Day 63
+
+- Topic I learned about: 
 - Date:
