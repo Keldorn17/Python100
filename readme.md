@@ -300,5 +300,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 63
 
+- Topic I learned about: SQLite, SQLAlchemy
+- Date: 2/3/2025
+
+## Day 64
+
 - Topic I learned about: 
 - Date:

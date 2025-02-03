@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for book in book_data %}
+        <p>Book Name: {{ book['title'] }}</p>
+        <p>Current Rating: {{ book['rating'] }}</p>
+    {% endfor %}
+    <form action="" method="POST">
+        <input type="number" name="rating" id="rating" step="0.01">
+        <button type="submit">Change Rating</button>
+    </form>
+</body>
+</html>
