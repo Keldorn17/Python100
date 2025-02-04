@@ -64,8 +64,9 @@ def edit(book_id: int):
     return render_template('edit.html', book_data=book)
 
 
-@app.route('/delete/<book_id>', methods=['GET', 'POST'])
-def delete(book_id: int):
+@app.route('/delete')
+def delete():
+    book_id = request.args.get('book_id')
     book_to_delete = db.get_or_404(Books, book_id)
     db.session.delete(book_to_delete)
     db.session.commit()

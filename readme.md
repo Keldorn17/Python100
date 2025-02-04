@@ -305,5 +305,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 64
 
+- Topic I learned about: Top 10 Movies Website
+- Date: 2/4/2025
+
+## Day 65
+
 - Topic I learned about: 
 - Date:
