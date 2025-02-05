@@ -310,5 +310,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 65
 
+- Topic I learned about: UI/UX Design
+- Date: 2/5/2025
+
+## Day 66
+
 - Topic I learned about: 
 - Date:
