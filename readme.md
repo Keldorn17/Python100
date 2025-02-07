@@ -320,5 +320,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 67
 
+- Topic I learned about: Blog, RESTful Routing
+- Date: 2/7/2025
+
+## Day 68
+
 - Topic I learned about: 
 - Date:
