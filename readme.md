@@ -325,5 +325,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 68
 
+- Topic I learned about: Authentication
+- Date: 2/12/2025
+
+## Day 69
+
 - Topic I learned about: 
 - Date:
