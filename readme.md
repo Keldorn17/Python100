@@ -330,5 +330,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 69
 
-- Topic I learned about: 
+- Topic I learned about: Blog Authentication
+- Date: 2/13/2025 - X
+
+## Day 70
+
+- Topic I learned about:
 - Date:
