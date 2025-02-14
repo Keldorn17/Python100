@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, abo
 from flask_bootstrap import Bootstrap5
 from flask_ckeditor import CKEditor
 from flask_login import login_user, LoginManager, login_required, current_user, logout_user
+from flask_gravatar import Gravatar
 from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import date
@@ -17,6 +18,14 @@ database = Database(app, 'posts.db')
 Bootstrap5(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
+gravatar = Gravatar(app,
+                    size=50,
+                    rating='g',
+                    default='retro',
+                    force_default=False,
+                    force_lower=False,
+                    use_ssl=False,
+                    base_url=None)
 
 
 @login_manager.user_loader
