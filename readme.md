@@ -335,5 +335,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 70
 
+- Topic I learned about: Git + GitHub
+- Date: 2/18/2025
+
+## Day 71
+
 - Topic I learned about:
 - Date:
