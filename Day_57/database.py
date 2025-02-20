@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
@@ -48,7 +50,7 @@ class Comment(db.Model):
 class Database:
 
     def __init__(self, app: Flask, file_name: str):
-        app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{file_name}"
+        app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DB_URI', f"sqlite:///{file_name}")
         db.init_app(app)
 
         with app.app_context():
