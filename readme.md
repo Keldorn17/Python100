@@ -340,5 +340,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 71
 
+- Topic I learned about: Deploying Web App
+- Date: 2/20/2025
+
+## Day 72
+
 - Topic I learned about:
 - Date:

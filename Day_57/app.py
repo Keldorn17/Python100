@@ -9,9 +9,14 @@ from datetime import date
 from send_email import SendEmail
 from forms import MakePost, RegisterForm, LoginForm, CommentForm
 from database import db, Database, BlogPost, User, Comment
+from dotenv import load_dotenv
+import os
 
+
+load_dotenv('.env')
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = os.getenv('FLASK_KEY')
+# python -c 'import secrets; print(secrets.token_hex())'
 ckeditor = CKEditor()
 ckeditor.init_app(app)
 database = Database(app, 'posts.db')
@@ -181,4 +186,4 @@ def logout():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)  # flask --app app run --debug
+    app.run(debug=False)  # flask --app app run --debug
