@@ -345,5 +345,10 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 
 ## Day 72
 
+- Topic I learned about: Data Visualisation with Google Colab Notebook
+- Date: 2/21/2025
+
+## Day 73
+
 - Topic I learned about:
 - Date:
