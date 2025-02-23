@@ -1,8 +1,5 @@
 # Learning Python in 100 days
 
-I am committed to learning and working with Python by the end of this 100-day challenge. I am determined not to 
-miss a single day and to complete the challenge exactly 100 days later, starting from 8/19/2024.
-
 ## Day 1
 
 - Topic I learned about: Variables, Errors, User input and Printing
@@ -349,6 +346,11 @@ miss a single day and to complete the challenge exactly 100 days later, starting
 - Date: 2/21/2025
 
 ## Day 73
+
+- Topic I learned about: Matplotlib
+- Date:
+
+## Day 74
 
 - Topic I learned about:
 - Date:
