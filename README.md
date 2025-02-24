@@ -352,5 +352,10 @@
 
 ## Day 74
 
+- Topic I learned about: Analyse the LEGO Dataset
+- Date: 2/24/2025 - 
+
+## Day 75
+
 - Topic I learned about:
 - Date:
