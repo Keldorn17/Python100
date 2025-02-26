@@ -357,5 +357,10 @@
 
 ## Day 75
 
+- Topic I learned about: Google Trends Data
+- Date: 2/26/2025
+
+## Day 75
+
 - Topic I learned about:
 - Date:
