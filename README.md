@@ -360,7 +360,12 @@
 - Topic I learned about: Google Trends Data
 - Date: 2/26/2025
 
-## Day 75
+## Day 76
+
+- Topic I learned about: Analyse Android App Store
+- Date: 3/2/2025
+
+## Day 77
 
 - Topic I learned about:
 - Date:
