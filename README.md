@@ -367,5 +367,10 @@
 
 ## Day 77
 
+- Topic I learned about: NumPy
+- Date: 3/4/2025
+
+## Day 78
+
 - Topic I learned about:
 - Date:
