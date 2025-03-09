@@ -372,5 +372,10 @@
 
 ## Day 78
 
+- Topic I learned about: Seaborn
+- Date: 3/9/2025
+
+## Day 79
+
 - Topic I learned about:
 - Date:
