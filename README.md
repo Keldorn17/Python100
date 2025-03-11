@@ -375,7 +375,12 @@
 - Topic I learned about: Seaborn
 - Date: 3/9/2025
 
-## Day 79
+## Day 82
+
+- Topic I learned about: Morse Code
+- Date: 3/11/2025
+
+## Day 83
 
 - Topic I learned about:
 - Date:
